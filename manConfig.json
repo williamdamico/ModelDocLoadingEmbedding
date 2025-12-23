@@ -1,0 +1,30 @@
+{
+  "db": {
+    "hostName": "192.168.100.20",
+    "userName": "td01",
+    "dbName": "td01",
+    "logmech": "TD2",
+    "tablePrefix": "GA",
+    "modelTable": "embeddings_models",
+    "tokenizerTable": "embeddings_tokenizers"
+  },
+  "log": {
+    "debug": true
+  },
+  "data": {
+    "contentPath": "./data"
+  },
+  "model": {
+    "modelNameShort": "bge-small-en-v1.5",
+    "hubModelId": "BAAI/bge-small-en-v1.5",
+    "outputDir": "bge-small-en-v1.5-onnx",
+    "opset": 16,
+    "trustRemoteCode": true,
+    "onnxFiles": "model.onnx",
+    "applyPostFixes": true,
+    "fixedBatchSize": 1,
+    "fixedSequenceLength": 512,
+    "fixedEmbeddingDim": 384
+  }
+}
+

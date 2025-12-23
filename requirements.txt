@@ -1,0 +1,26 @@
+# Core LLM + optimization
+transformers
+optimum[onnxruntime]
+accelerate
+
+# Embeddings & model zoo
+sentence-transformers
+huggingface_hub
+hf_xet
+
+# Data & utilities
+pandas
+pillow
+pymupdf
+imageio-ffmpeg
+ffmpeg
+pytesseract
+markitdown[all]
+langchain
+langchain-text-splitters
+
+# ML runtime/bindings
+onnx
+
+# Teradata
+teradataml

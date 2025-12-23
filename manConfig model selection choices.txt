@@ -1,0 +1,30 @@
+  Plug one of these sections into manConfig.json based on the model you want to use
+  
+  
+  "model": {
+    "modelNameShort": "e5-large-v2",
+    "hubModelId": "intfloat/e5-large-v2",
+    "outputDir": "e5-large-v2-onnx",
+    "opset": 16,
+    "trustRemoteCode": true,
+    "onnxFiles": "model.onnx",
+    "applyPostFixes": true,
+    "fixedBatchSize": 1,
+    "fixedSequenceLength": 512,
+    "fixedEmbeddingDim": 1024
+  }
+  
+  
+  "model": {
+    "modelNameShort": "bge-small-en-v1.5",
+    "hubModelId": "BAAI/bge-small-en-v1.5",
+    "outputDir": "bge-small-en-v1.5-onnx",
+    "opset": 16,
+    "trustRemoteCode": true,
+    "onnxFiles": "model.onnx",
+    "applyPostFixes": true,
+    "fixedBatchSize": 1,
+    "fixedSequenceLength": 512,
+    "fixedEmbeddingDim": 384
+  }
+  
